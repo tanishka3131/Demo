@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        @media screen and (width:600px){
+            body{
+            color: rgb(255, 0, 0);
+        }
+    }
+    </style>
+</head> 
+<body>
+<form>
+<div class="container1">
+    <h1>Payment Form</h1>
+    <hr>
+</div>
+<div class="container2"
+    <h2>User Information</h2><br><br><br>
+    <label>Name</label><input type="text" name="name" placeholder="Enter Your Name"><br><br>
+    <fieldset name="Gender">
+        <legend>GENDER</legend>
+        <label>Male</label><input type="radio" name="gender">
+        <label>Female</label><input type="radio" name="gender">
+    </fieldset><br><br>
+    <label>Address</label><textarea  placeholder="Enter your address"></textarea><br><br>
+    <label>Email</label><input type="email" name="email"><br><br>
+    <label>Pincode</label><input type="password" name="pincode">
+    <br>
+</div>
+<div class="container3"
+    <h2>Payment Information</h2>
+    <label>Card Type</label><select name="card">
+        <option value="select">--Select Card Type--</option>
+        <option value="visa">VISA</option>
+        <option value="mastercard">Mastercard</option>
+        <option value="ATM">ATM</option>
+    </select><br><br>
+    <label>Card Number</label><input type="text" name="no" placeholder=" 000 000 0000"><br><br>
+    <label>Expiration Date</label><input type="date" name="date"><br><br>
+    <button type="submit" name="paynow">Pay Now</button>
+    <button type="reset" name="reset">Reset</button>
+</div>
+</form>
+</body>
+</html>
